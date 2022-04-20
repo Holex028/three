@@ -1,0 +1,115 @@
+.logout {
+  background: url(../img/bg/payments-bg1.svg) 20% 23% no-repeat, url(../img/bg/payments-bg2.svg) 12% 77% no-repeat, url(../img/bg/payments-bg3.svg) 36% 95% no-repeat, url(../img/bg/payments-bg4.svg) 85% 24% no-repeat, url(../img/bg/payments-bg5.svg) 78% 98% no-repeat; }
+  .logout-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 56px; }
+  .logout__button {
+    background: #000000;
+    border-radius: 32.4096px;
+    padding: 0px 26px;
+    border: 0px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF; }
+    .logout__button:hover {
+      background: #fff;
+      color: #000;
+      border: 1px solid #000; }
+  .logout-title {
+    margin-top: 53px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 62px;
+    text-transform: lowercase;
+    color: rgba(0, 0, 0, 0.26);
+    text-align: center; }
+  .logout__content {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 64px;
+    padding: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #E5E5E5; }
+  .logout .logout__content-title {
+    font-weight: 400;
+    font-size: 30px;
+    color: #000; }
+  .logout .logout__content-registraiton {
+    text-decoration: none;
+    color: #6495ED;
+    cursor: pointer; }
+  .logout .form-input {
+    width: 100%;
+    margin-top: 20px; }
+  .logout .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px; }
+  .logout .logout-btn {
+    border: 0;
+    color: #fff;
+    padding: 8px;
+    background-color: #3CB371; }
+  .logout .logout-recover {
+    margin-left: 26px;
+    margin-right: 22px;
+    text-decoration: none;
+    color: #6495ED;
+    cursor: pointer;
+    font-size: 12px; }
+  .logout .feedback {
+    display: block;
+    margin: 0 auto;
+    margin-top: 47px;
+    margin-bottom: 280px;
+    width: 10%;
+    text-decoration: none;
+    color: #6495ED;
+    cursor: pointer; }
+
+@media(max-width: 1024px) {
+  .logout-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .logout .feedback {
+    width: 34%;
+    margin-bottom: 80px; }
+
+  .social-img {
+    width: 50%;
+    height: 50%; }
+
+  .logout__content {
+    width: 100%; }
+
+  .logout .form-input {
+    width: 100%;
+    margin-top: 23px; } }
+
+/*# sourceMappingURL=logout.css.map */
